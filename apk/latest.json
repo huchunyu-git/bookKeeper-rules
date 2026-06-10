@@ -1,0 +1,10 @@
+{
+  "version_code": 92,
+  "version_name": "0.92.0",
+  "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
+  "apk_urls": [
+    "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
+    "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
+  ],
+  "notes": "更新按钮支持本地已是最新版本时直接提示。"
+}
