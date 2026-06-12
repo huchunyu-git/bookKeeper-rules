@@ -1,10 +1,10 @@
 {
-  "version_code": 94,
-  "version_name": "0.94.0",
+  "version_code": 95,
+  "version_name": "0.95.0",
   "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
     "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
   ],
-  "notes": "同一时间同金额的多平台推送会合并为一笔，并清理历史重复。"
+  "notes": "通知原始内容去掉短摘要和长正文的重复展示。"
 }
