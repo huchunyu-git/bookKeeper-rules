@@ -1,10 +1,10 @@
 {
-  "version_code": 97,
-  "version_name": "0.97.0",
+  "version_code": 98,
+  "version_name": "0.98.0",
   "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
     "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
   ],
-  "notes": "白条等还款扣款不再记账，并强化同秒同金额及汇总拆分重复合并。"
+  "notes": "保存流水类别后，该类别会在对应收入/支出列表中排到最前。"
 }
