@@ -1,10 +1,10 @@
 {
-  "version_code": 96,
-  "version_name": "0.96.0",
+  "version_code": 97,
+  "version_name": "0.97.0",
   "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
     "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
   ],
-  "notes": "支持美团支付成功、已支付、退款成功等通知入账。"
+  "notes": "白条等还款扣款不再记账，并强化同秒同金额及汇总拆分重复合并。"
 }
