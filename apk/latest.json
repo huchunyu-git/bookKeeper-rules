@@ -1,10 +1,10 @@
 {
-  "version_code": 99,
-  "version_name": "0.99.0",
+  "version_code": 100,
+  "version_name": "0.100.0",
   "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
     "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
   ],
-  "notes": "类别管理新增删除类别功能，删除后不会修改历史流水。"
+  "notes": "版本更新增加下载进度和异常复位，网络卡住时会恢复按钮并尝试备用下载源。"
 }
