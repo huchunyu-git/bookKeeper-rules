@@ -1,10 +1,9 @@
 {
-  "version_code": 102,
-  "version_name": "0.102.0",
-  "apk_url": "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
+  "version_code": 103,
+  "version_name": "0.103.0",
   "apk_urls": [
-    "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk",
-    "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk"
+    "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "notes": "银行借记卡、储蓄卡、一卡通等扣款通知不再计入记账；流水条目支持长按确认删除。"
+  "apk_sha256": "65271EB8B5A69E7BEA1F836F310CCD372922D1EF05AEB31AEE7AF53990FD4246",
+  "notes": "优化 APK 更新下载：移除不可用 CDN，下载地址去重，支持断点续传和安装包校验。"
 }
