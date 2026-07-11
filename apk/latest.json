@@ -1,9 +1,9 @@
 {
-  "version_code": 105,
-  "version_name": "0.105.0",
+  "version_code": 106,
+  "version_name": "0.106.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "94B4D61CAD4E0F34129132F85720241D6F9E2A58D569D73FBB8D69F41FCE0A1C",
-  "notes": "修复美团与银行卡同时间同金额重复记账：美团纳入支付平台合并规则，并在打开 App 时清理历史重复。"
+  "apk_sha256": "280AB3AB0CC49F74259AA0645A30CAEC8620F0671289ADFCE35DB114C84AEF12",
+  "notes": "手工添加到监控列表的非银行 App 会作为平台侧记录参与同时间同金额去重，避免平台与银行卡重复记账。"
 }
