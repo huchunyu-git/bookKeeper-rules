@@ -1,9 +1,9 @@
 {
-  "version_code": 104,
-  "version_name": "0.104.0",
+  "version_code": 105,
+  "version_name": "0.105.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "3F6C42B7618266D75BE695CA96663C86ED775A1DEC5C6577CCEE83B5CBFD565C",
-  "notes": "强化招商借记卡扣款过滤：服务号解析器不再生成借记卡扣款流水，并强制清理历史误记账。"
+  "apk_sha256": "94B4D61CAD4E0F34129132F85720241D6F9E2A58D569D73FBB8D69F41FCE0A1C",
+  "notes": "修复美团与银行卡同时间同金额重复记账：美团纳入支付平台合并规则，并在打开 App 时清理历史重复。"
 }
