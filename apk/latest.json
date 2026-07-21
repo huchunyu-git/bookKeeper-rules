@@ -1,9 +1,9 @@
 {
-  "version_code": 106,
-  "version_name": "0.106.0",
+  "version_code": 107,
+  "version_name": "0.107.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "280AB3AB0CC49F74259AA0645A30CAEC8620F0671289ADFCE35DB114C84AEF12",
-  "notes": "手工添加到监控列表的非银行 App 会作为平台侧记录参与同时间同金额去重，避免平台与银行卡重复记账。"
+  "apk_sha256": "C70BC41CD9177D24DB849C054A29DF34AA791723BEB7F311D19DBB2D9A7B66CE",
+  "notes": "消费时间优先使用通知内容中的交易/消费/支付/扣款时间；没有内容时间时才使用通知到达时间，已有流水会在打开数据库时自动校正。"
 }
