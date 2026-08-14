@@ -1,9 +1,9 @@
 {
-  "version_code": 112,
-  "version_name": "0.112.0",
+  "version_code": 113,
+  "version_name": "0.113.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "3D86DCBE9D4C9E703A7CC198AF3A04341C436C4A8E8866084084AEC42307BDA6",
-  "notes": "修复招商银行“您账户xxxx”快捷支付扣款被显示/回填为信用卡的问题，升级后会将这类记录规范为招行借记卡尾号。"
+  "apk_sha256": "5E1F3F4F49EE80BCA640DEDF5F4E9473373A20600F1F706D5CAF3F556F79369C",
+  "notes": "将首页年月切换固定到顶部“自动记账”右侧，滚动记账条目时仍可见；流水页饼图移动到页面最下面显示。"
 }
