@@ -1,9 +1,9 @@
 {
-  "version_code": 107,
-  "version_name": "0.107.0",
+  "version_code": 108,
+  "version_name": "0.108.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "C70BC41CD9177D24DB849C054A29DF34AA791723BEB7F311D19DBB2D9A7B66CE",
-  "notes": "消费时间优先使用通知内容中的交易/消费/支付/扣款时间；没有内容时间时才使用通知到达时间，已有流水会在打开数据库时自动校正。"
+  "apk_sha256": "F6A65A9B6B2F495FA4C76A011C4742AFB67CA553F911855BF7A1AB1C542D191F",
+  "notes": "修复保存修改流水类别后，类别被数据库打开或规则归一化流程重新排回默认顺序的问题。"
 }
