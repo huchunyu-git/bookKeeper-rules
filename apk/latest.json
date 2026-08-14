@@ -1,9 +1,10 @@
 {
-  "version_code": 120,
-  "version_name": "0.120.0",
+  "version_code": 121,
+  "version_name": "0.121.0",
   "apk_urls": [
+    "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk",
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "6C642B1A82845C504747828EF322E5C3156C804F0EB7DCAF9F1BA0FA3E70F0FB",
-  "notes": "修复截图补录中一卡通被OCR识别成-卡通时无法命中转账详情规则的问题；升级后会自动修正已误导入的截图转入记录。"
+  "apk_sha256": "BA2348DB2DA8186F5855F31D090495A3C58C23DC88FB063F0ECEEB14507FF236",
+  "notes": "点击更新时会自动把 APK 下载地址复制到剪贴板；更新清单优先使用 CDN APK 地址并保留 GitHub raw 兜底。"
 }
