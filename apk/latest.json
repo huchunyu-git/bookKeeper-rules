@@ -1,9 +1,9 @@
 {
-  "version_code": 109,
-  "version_name": "0.109.0",
+  "version_code": 110,
+  "version_name": "0.110.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "4A7D307CE05211A0A22B675BBC316D43DA598B573785528822DD927978689D4E",
-  "notes": "首页扇形仪表板新增按账户/支付平台切换，可查看银行卡、支付宝、京东金融、美团等维度的收支占比。"
+  "apk_sha256": "58D3A7A860DE0B0E6825B37F5BF97AFFA106EA7F6C419B20444606876C73292F",
+  "notes": "切换账户/分类饼图和保存流水修改时保留当前滚动位置；新增账户昵称管理，列表显示账户（昵称），账户饼图优先显示昵称。"
 }
