@@ -1,9 +1,9 @@
 {
-  "version_code": 115,
-  "version_name": "0.115.0",
+  "version_code": 116,
+  "version_name": "0.116.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "7AA45A0C16D45CD516FFCBA1E8A4BFBE316DD50E990E3DAC4737206131A9B016",
-  "notes": "修复同笔交易合并多个银行/支付来源后，账户名可能被补充来源带偏的问题；升级后会自动重新整理历史账户名。"
+  "apk_sha256": "A07BD405A0904C96A4C2FC131C3671ADB3DC65814C1FA250B7CC5241F030AE02",
+  "notes": "修复同金额近时间但不同银行卡的消费被误合并的问题；升级后会自动拆回已误合并的补充来源记录，并支持“04日20:35”这类时间解析。"
 }
