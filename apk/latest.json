@@ -1,9 +1,9 @@
 {
-  "version_code": 119,
-  "version_name": "0.119.0",
+  "version_code": 120,
+  "version_name": "0.120.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "3672B36E823A05A7BE56FF94A2D2652CC5A506F5AE933460A9ED72B5027DF23B",
-  "notes": "修复截图补录转账详情中带+号的转入记录被误判为支出的问题；金额正负号优先决定收支方向。"
+  "apk_sha256": "6C642B1A82845C504747828EF322E5C3156C804F0EB7DCAF9F1BA0FA3E70F0FB",
+  "notes": "修复截图补录中一卡通被OCR识别成-卡通时无法命中转账详情规则的问题；升级后会自动修正已误导入的截图转入记录。"
 }
