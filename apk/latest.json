@@ -1,10 +1,9 @@
 {
-  "version_code": 121,
-  "version_name": "0.121.0",
+  "version_code": 122,
+  "version_name": "0.122.0",
   "apk_urls": [
-    "https://cdn.jsdelivr.net/gh/huchunyu-git/bookKeeper-rules@main/apk/bookkeeper-latest.apk",
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "BA2348DB2DA8186F5855F31D090495A3C58C23DC88FB063F0ECEEB14507FF236",
-  "notes": "点击更新时会自动把 APK 下载地址复制到剪贴板；更新清单优先使用 CDN APK 地址并保留 GitHub raw 兜底。"
+  "apk_sha256": "C59B617DE8BCF2AC3885000474B97B52A8E235D524868565F636B11DEEDFAC12",
+  "notes": "移除 jsDelivr APK 下载地址，避免 20 MB 单文件限制导致浏览器和应用下载失败；点击更新仍会复制可用 APK 地址。"
 }
