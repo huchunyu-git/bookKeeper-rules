@@ -1,9 +1,9 @@
 {
-  "version_code": 113,
-  "version_name": "0.113.0",
+  "version_code": 114,
+  "version_name": "0.114.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "5E1F3F4F49EE80BCA640DEDF5F4E9473373A20600F1F706D5CAF3F556F79369C",
-  "notes": "将首页年月切换固定到顶部“自动记账”右侧，滚动记账条目时仍可见；流水页饼图移动到页面最下面显示。"
+  "apk_sha256": "3172534B06A4672278CCF151A324EA55C021378180BD3013BF3D959A599BA79E",
+  "notes": "统一账户显示规则：招商银行/招行信用卡、浦发/广发信用卡等同类账户会归一，升级后自动整理历史流水账户名。"
 }
