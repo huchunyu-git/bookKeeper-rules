@@ -1,9 +1,9 @@
 {
-  "version_code": 110,
-  "version_name": "0.110.0",
+  "version_code": 111,
+  "version_name": "0.111.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "58D3A7A860DE0B0E6825B37F5BF97AFFA106EA7F6C419B20444606876C73292F",
-  "notes": "切换账户/分类饼图和保存流水修改时保留当前滚动位置；新增账户昵称管理，列表显示账户（昵称），账户饼图优先显示昵称。"
+  "apk_sha256": "E09253E05CB074B307BF1D4D858DF8518EDD6D1C0A45C297FBC9BF7CB6C488A8",
+  "notes": "优化饼图切换和流水修改后的刷新方式，复用当前滚动容器避免瞬间跳顶；流水页新增当前年份的分类/账户饼图。"
 }
