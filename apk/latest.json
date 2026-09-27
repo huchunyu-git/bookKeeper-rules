@@ -1,9 +1,9 @@
 {
-  "version_code": 122,
-  "version_name": "0.122.0",
+  "version_code": 123,
+  "version_name": "0.123.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "C59B617DE8BCF2AC3885000474B97B52A8E235D524868565F636B11DEEDFAC12",
-  "notes": "移除 jsDelivr APK 下载地址，避免 20 MB 单文件限制导致浏览器和应用下载失败；点击更新仍会复制可用 APK 地址。"
+  "apk_sha256": "044BDF93EA07D60965FA557E5D382F77C0536806E0504546A0F06CA4C825D48B",
+  "notes": "新增系统验证锁：打开或切回 App 需指纹/图形密码/锁屏密码，离开后自动回锁；新增金额隐藏开关，默认隐藏所有金额，可用顶部「显示/隐藏」切换。"
 }
