@@ -1,9 +1,9 @@
 {
-  "version_code": 124,
-  "version_name": "0.124.0",
+  "version_code": 125,
+  "version_name": "0.125.0",
   "apk_urls": [
     "https://raw.githubusercontent.com/huchunyu-git/bookKeeper-rules/main/apk/bookkeeper-latest.apk"
   ],
-  "apk_sha256": "97F142357C03BDD83D9B59923EEF6194A35D62DBDCF29833FDFF2ECC3D7291DA",
-  "notes": "修复应用锁验证流程：输入正确密码/指纹后不再残留“已锁定”页面；系统权限弹窗不再误触发重新锁定；截图补录不再因回锁丢失已选图片。"
+  "apk_sha256": "9E64ABB608B0DCAE4E2AE4C3BABFC38E5F280905E42250422EC7435ABC41EF4E",
+  "notes": "银行名称显示精简：去掉「银行」二字，例如「广发银行信用卡」->「广发信用卡」；四大行用固定简称（中国银行->中行、工商银行->工行、建设银行->建行、农业银行->农行、交通银行->交行、招商银行->招行）。账户昵称已做迁移，不会因改名失效。"
 }
